@@ -1,86 +1,108 @@
-/* Global styles */
+.body, html {
+  background-image: url('https://images.alphacoders.com/133/thumb-1920-1330376.png');
+  background-size: cover;      
+  background-repeat: repeat; 
+  background-position: center;  
+  height: 100vh;               
+  width: 100%;
+  margin: 0;
+  padding: 0;                  
+}
 
-body {             
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Header styles */
-  
-  header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding: 20px;
+}
+
+.page h1 {
+  width: 100%; /* Make sure it spans full container width */
+  text-align: center;
+  margin-top: 0px ;
+  margin-bottom: 10px;
+  -webkit-text-fill-color: rgb(13, 232, 217) ;
+  -webkit-text-stroke: 2px;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size:3em;
+}
+
+.page h3 {
+  font-size: 800 30px;
+  -webkit-text-fill-color: rgb(13, 232, 217) ;
+  -webkit-text-stroke: 1px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color:black 
+}
+.ListItem {
+    width: 150px; /* Adjust the width as needed */
     text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-  }
-  
-  /* List styles */
-  
-  .item-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px 0;
-  }
-  
-  .item {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-    width: 200px;
-  }
-  
-  .item img {
-    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: background for better readability */
+    border-radius: 8px; /* Optional: rounded corners */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for better appearance */
+}
+.ListItem img {
+    width: 100%; /* Make the image take the full width of the div */
     height: auto;
-  }
-  
-  .item h3 {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .item:hover {
-    transform: translateY(-5px);
-  }
-  
-  /* Detail view styles */
-  
-  .detail-view {
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
-  }
-  
-  .detail-view img {
-    max-width: 100%;
-    border-radius: 8px;
-  }
-  
-  .detail-view h2 {
-    margin-top: 0;
-  }
-  
-  .detail-view p {
-    line-height: 1.6;
-  }
+}
+.hDfbtX {
+  font-size:large;
+  -webkit-text-fill-color: rgb(13, 232, 217) ;
+  -webkit-text-stroke: 1px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color:black
+}
+.page p {
+  font-size: larger;
+}
+
+.page a {
+  -webkit-text-fill-color: rgb(9, 243, 211) ;
+  -webkit-text-stroke: 1px;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  text-decoration:underline;
+}
+a:-webkit-any-link{
+  color: rgb(9, 243, 211) ;
+  -webkit-text-stroke: 1px;
+}
+a:-webkit-any-link:hover {
+  color: chocolate;
+}
+.hjBXnw {
+  font-size:large;
+  -webkit-text-fill-color: rgb(13, 232, 217) ;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.hjBXnw:hover {
+  color: chocolate;
+}
+
+p {
+  font-size: .3in;
+  -webkit-text-fill-color: rgb(9, 243, 211) ;
+  -webkit-text-stroke: 1px;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+  font-size: .6in;
+  -webkit-text-fill-color: rgb(9, 243, 211) ;
+  -webkit-text-stroke: 1px;
+  color: black;
+  font-family: "Comic Sans MS", "Comic Sans", cursive; 
+  text-decoration:underline
+}
+
+
+
+
+
+
